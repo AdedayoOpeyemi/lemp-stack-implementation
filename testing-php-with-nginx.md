@@ -9,9 +9,8 @@ You can test it to validate that Nginx can correctly hand .php files off to your
 1. You can do this by creating a test PHP file in your document root. Open a new file called info.php within your document root in your text editor: run `sudo nano /var/www/projectLEMP/info.php`
 
 2. Type or paste the following lines into the new file. This is valid PHP code that will return information about your server:
-
-<?php
-phpinfo();
+`<?php
+phpinfo();`
 
 ![](assets/testing-php-with-nginx/create-php.png)
 
